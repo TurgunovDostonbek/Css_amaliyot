@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* /////////////////// HEADER ////////////////// */
+
+
+
+
+/* /////////////////// END HEADER ////////////////// */
+
+
+
+/* /////////////////// HERO ////////////////// */
+
+
+
+
+
+
+/* ////////////////// END HERO ////////////// */
+
+
+
+/* FIGMA LINK 
+https://www.figma.com/design/bDxLZWHNMjezaUQBrr9ffx/Green-Cart-Haven-Website-Landing-Page-Design--Community-?node-id=37-292&t=0I4vqUDFzbrCK0cu-0
+*/
