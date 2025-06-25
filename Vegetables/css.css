@@ -60,6 +60,7 @@ button {
 .hero__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -75,7 +76,7 @@ button {
 .hero__title {
   color: #FFF;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 3em;
   font-family: Montserrat;
   letter-spacing: 4%;
   line-height: 120.2%;
@@ -84,7 +85,7 @@ button {
 .hero__subtitle {
   color: #F5F5F5;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Montserrat;
   letter-spacing: 0%;
   line-height: 140.2%;
@@ -93,7 +94,7 @@ button {
 .hero__btn {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   color: #0B6434;
   padding: 10px;
   border-radius: 4px;
@@ -101,8 +102,96 @@ button {
   margin-top: 10px;
 }
 
+.hero__btn:hover {
+  background-color: #d61212;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__right img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+}
 
 /* ////////////////// END HERO ////////////// */
+
+
+
+/* ////////////////// START MAIN ///////////// */
+
+/* //////////// CATEGORY /////////////// */
+.category__container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+.category__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.category__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.category__card:hover {
+  color: #0B6434;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+/* ////////////////// END MAIN ////////////// */
+
+
+/* ////////////////// START FOOTER ////////////// */
+
+.footer {
+  background-color: #C6EAD7;
+  padding: 20px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__title {
+  color: #000000;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: Montserat;
+  margin-bottom: 5px;
+}
+
+.footer__text {
+  font-family: Monsterat;
+  font-weight: 200;
+  font-size: 16px;
+  color: #000000;
+}
+
+.footer__about,
+.footer__help,
+.footer__contact,
+.footer__follow {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* ////////////////// END FOOTER ////////////// */
+
 
 
 
