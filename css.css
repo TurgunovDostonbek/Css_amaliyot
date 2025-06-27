@@ -1,0 +1,404 @@
+/* VEGETABLES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #e4dfdf;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+/* /////////////////// HEADER ////////////////// */
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.navbar__links-list {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar__links-link {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+/* /////////////////// END HEADER ////////////////// */
+
+
+/* /////////////////// HERO ////////////////// */
+
+.hero {
+  background-color: #0B6434;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero__title {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Montserrat;
+  letter-spacing: 4%;
+  line-height: 120.2%;
+}
+
+.hero__subtitle {
+  color: #F5F5F5;
+  font-weight: 200;
+  font-size: 1rem;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  line-height: 140.2%;
+}
+
+.hero__btn {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #0B6434;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+}
+
+.hero__btn:hover {
+  background-color: #d61212;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__right img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+}
+
+/* ////////////////// END HERO ////////////// */
+
+
+
+/* ////////////////// START MAIN ///////////// */
+
+/* //////////// CATEGORY /////////////// */
+.category__container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+.category__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.category__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.category__card:hover {
+  color: #0B6434;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* //////////// PRODUCT /////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////// PRODUCTS /////////////// */
+
+.products__container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+.products__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 40px 0;
+}
+
+.products__card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #0B6434;
+}
+
+.products__card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+  transition: all 0.11s;
+  cursor: pointer;
+}
+
+.products__card-title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+.products__card p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.products__card-btn {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: #0B6434;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+}
+
+
+.products__card-btn:hover {
+  background-color: #d61212;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ////////////////// END MAIN ////////////// */
+
+
+/* ////////////////// START FOOTER ////////////// */
+
+.footer {
+  background-color: #C6EAD7;
+  padding: 20px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__title {
+  color: #000000;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: Montserat;
+  margin-bottom: 5px;
+}
+
+.footer__text {
+  font-family: Monsterat;
+  font-weight: 200;
+  font-size: 16px;
+  color: #000000;
+}
+
+.footer__about,
+.footer__help,
+.footer__contact,
+.footer__follow {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* ////////////////// END FOOTER ////////////// */
+
+/* FIGMA LINK
+https://www.figma.com/design/bDxLZWHNMjezaUQBrr9ffx/Green-Cart-Haven-Website-Landing-Page-Design--Community-?node-id=37-292&t=0I4vqUDFzbrCK0cu-0
+*/
+
+/* MAGAZINE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ////////////// Header Styles/////////// */
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.header__logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: Cambria;
+  font-weight: 400;
+  font-size: 19.88px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #E31F1F;
+}
+
+.header__subtitle {
+  font-family: SF Pro Display;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  text-align: center;
+  color: #494949;
+}
+
+
+/* //////////// Navbar Styles //////////// */
+.navbar {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.navbar__link {
+  font-family: SF Pro Display;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #333333;
+}
+
+.navbar__link:hover {
+  color: #E31F1F;
+}
+
+/* //////////// Hero Styles //////////// */
+.hero {
+  background-color: #f0eeee;
+  padding-top: 20px;
+}
+
+.hero__container {
+  background-image: url("./img/hero.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__title {
+  font-family: SF Pro Display;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f1eded;
+  padding-top: 100px;
+  padding-left: 80px;
+}
