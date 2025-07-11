@@ -47,6 +47,23 @@ button {
   font-family: Montserrat;
 }
 
+.navbar__btn{
+  display: flex;
+  gap: 10px;
+}
+
+.navbar__btn-link{
+  width: 30px;
+  height: 30px;
+  background:rgb(184, 211, 197);
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* /////////////////// END HEADER ////////////////// */
 
 
@@ -149,29 +166,92 @@ button {
 
 /* //////////// PRODUCT /////////////// */
 
+.product__container {
+  display: flex;
+  flex-direction: column;
+}
 
+.product__cards {
+  display: flex;
+  gap: 10px;  
+  margin: 40px 0;
+}
 
+.product__cards--left{
+  width: 500px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8A938;
+  border-radius: 5px;
+}
 
+.product__cards--title{
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Montserrat;
+  text-align: center;
+}
 
+.product__cards--subtitle{
+  color: #000000;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: Montserrat;
+  text-align: center;
+}
 
+.product__cards--right{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
+.product__right--top{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  background-color: #FD5151;
+  border-radius: 5px;
+}
 
+.product__right--bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  background-color: #FF9564;
+  border-radius: 5px;
+}
 
+.product__cards--title {
+  color: #FFFFFF;
+  font-weight: 600; 
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: center;
+}
 
+.product__cards--btn{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: #000;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.product__cards--btn:hover {
+  background-color: #d61212;
+  transition: all 0.3s ease-in-out;
+}
 
 
 /* //////////// PRODUCTS /////////////// */
