@@ -48,6 +48,23 @@ button {
   font-family: Montserrat;
 }
 
+.navbar__btn{
+  display: flex;
+  gap: 10px;
+}
+
+.navbar__btn-link{
+  width: 30px;
+  height: 30px;
+  background:rgb(184, 211, 197);
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* /////////////////// END HEADER ////////////////// */
 
 
@@ -150,29 +167,92 @@ button {
 
 /* //////////// PRODUCT /////////////// */
 
+.product__container {
+  display: flex;
+  flex-direction: column;
+}
 
+.product__cards {
+  display: flex;
+  gap: 10px;  
+  margin: 40px 0;
+}
 
+.product__cards--left{
+  width: 500px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8A938;
+  border-radius: 5px;
+}
 
+.product__cards--title{
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Montserrat;
+  text-align: center;
+}
 
+.product__cards--subtitle{
+  color: #000000;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: Montserrat;
+  text-align: center;
+}
 
+.product__cards--right{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
+.product__right--top{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  background-color: #FD5151;
+  border-radius: 5px;
+}
 
+.product__right--bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  background-color: #FF9564;
+  border-radius: 5px;
+}
 
+.product__cards--title {
+  color: #FFFFFF;
+  font-weight: 600; 
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: center;
+}
 
+.product__cards--btn{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background-color: #000;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.product__cards--btn:hover {
+  background-color: #d61212;
+  transition: all 0.3s ease-in-out;
+}
 
 
 /* //////////// PRODUCTS /////////////// */
@@ -290,115 +370,3 @@ button {
 /* FIGMA LINK
 https://www.figma.com/design/bDxLZWHNMjezaUQBrr9ffx/Green-Cart-Haven-Website-Landing-Page-Design--Community-?node-id=37-292&t=0I4vqUDFzbrCK0cu-0
 */
-
-/* MAGAZINE */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  font-family: sans-serif;
-}
-
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-/* ////////////// Header Styles/////////// */
-
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.header__logo {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
-}
-
-.header__logo-img {
-  width: 40px;
-  height: 40px;
-}
-
-.header__title {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-family: Cambria;
-  font-weight: 400;
-  font-size: 19.88px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #E31F1F;
-}
-
-.header__subtitle {
-  font-family: SF Pro Display;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 10%;
-  text-align: center;
-  color: #494949;
-}
-
-
-/* //////////// Navbar Styles //////////// */
-.navbar {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.navbar__list {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 10px 0;
-}
-
-.navbar__link {
-  font-family: SF Pro Display;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #333333;
-}
-
-.navbar__link:hover {
-  color: #E31F1F;
-}
-
-/* //////////// Hero Styles //////////// */
-.hero {
-  background-color: #f0eeee;
-  padding-top: 20px;
-}
-
-.hero__container {
-  background-image: url("./img/hero.png");
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-}
-
-.hero__title {
-  font-family: SF Pro Display;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #f1eded;
-  padding-top: 100px;
-  padding-left: 80px;
-}
