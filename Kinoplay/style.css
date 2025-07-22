@@ -2,21 +2,109 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1360px;
   width: 100%;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+}
+
 /* ///////////////////////// START HEADER //////////////////////////// */
+
+.header {
+  height: 900px;
+  background-image: url(./img/Sub\ Container.png);
+  background-position: center;
+  background-size: cover;
+}
+
 /* /////////////////////////// END HEADER //////////////////////////// */
 
 
 /* ///////////////////////// START NAVBAR //////////////////////////// */
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.navbar__logo--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar__title {
+  width: 136px;
+  height: 20px;
+  color: #FFF;
+}
+
+
+.navbar__list {
+  width: 555px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 12px;
+  border: 4px solid #1F1F1F;
+  background-color: black;
+}
+
+.list__item--link {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFF;
+}
+
+.list__item {
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.list__item:hover {
+  background-color: #1F1F1F;
+}
+
+.navbar__btn {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar__btn button {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar__btn button:hover {
+  transform: scale(1.102);
+}
+
 /* /////////////////////////// END NAVBAR //////////////////////////// */
 
 /* ///////////////////////// START HERO //////////////////////////// */
