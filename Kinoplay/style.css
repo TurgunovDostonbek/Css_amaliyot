@@ -19,7 +19,7 @@ button:hover {
 }
 
 body {
-  background-color: black;
+  background-color: #181414;
 }
 
 /* ///////////////////////// START HEADER //////////////////////////// */
@@ -185,6 +185,13 @@ body {
   border: none;
 }
 
+.hero__btn:hover {
+  background-color: #000;
+  color: #E50000;
+  border: 1px solid #E50000;
+  transition: all 1s ease;
+}
+
 @media screen and (max-width: 880px) {
   .header {
     overflow: hidden;
@@ -233,6 +240,7 @@ body {
 }
 
 @media screen and (max-width: 790px) {
+
   .navbar__list {
     position: absolute;
     flex-direction: column;
@@ -253,6 +261,14 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+  .navbar__logo--img {
+    width: 40px;
+  }
+
+  .navbar__title {
+    font-size: 20px;
+  }
+
   .navbar__list {
     transform: translate(180px);
     transition: all 1s ease;
@@ -262,6 +278,50 @@ body {
     transform: translateX(-100px);
     transition: 1s;
   }
+
+  .hero__title {
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFF;
+  }
+
+  .hero__text {
+    width: 80%;
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #999999;
+  }
+
+  .hero__btn {
+    height: 44px;
+    width: 151px;
+    opacity: 1;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #E50000;
+    color: #FFF;
+    font-family: Manrope;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    border: none;
+  }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -300,11 +360,295 @@ body {
   }
 }
 
-
-
 /* /////////////////////////// END HERO //////////////////////////// */
 
 /* ///////////////////////// START MAIN //////////////////////////// */
+
+.main {
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+
+/* /////////// Second Section ///////// */
+
+.second__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.second__title {
+  font-family: Manrope;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 38px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFF;
+}
+
+.second__text {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.second__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 80px;
+}
+
+
+.second__cards--card {
+  width: 432px;
+  height: 253px;
+  opacity: 1;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  padding: 40px;
+  background: linear-gradient(220deg, rgba(229, 0, 0, 0.5) -208.03%, rgba(229, 0, 0, 0) 41.32%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.second__cards--card:hover {
+  cursor: pointer;
+  background: linear-gradient(120deg, rgba(229, 0, 0, 0.5) -208.03%, rgba(214, 37, 37, 0) 100.32%);
+  transition: all 2s ease;
+}
+
+.second__card--title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.second__card--title h3 {
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFF;
+}
+
+.second__cards--card p {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+/* /////////// Third Section ///////// */
+
+.third__section {
+  margin-top: 150px;
+}
+
+.third__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.third__container--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third__title {
+  font-family: Manrope;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 34px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFF;
+}
+
+.third__text {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.third__top--right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 237px;
+  height: 75px;
+  border-radius: 10px;
+  border: 1px solid #262626;
+  padding: 10px;
+  background-color: black;
+}
+
+.third__top--btn {
+  border-radius: 10px;
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  background-color: black;
+  color: #FFF;
+  border: none;
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.third__top--btn:hover {
+  background-color: #262626;
+}
+
+.third__bottom--cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.third__cards--card {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  padding: 50px;
+  background: #1A1A1A;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #262626;
+}
+
+/* Pseudo-element for animated border */
+.third__cards--card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  background: #000;
+  z-index: 0;
+  transition: width 0.8s ease;
+  border-radius: 12px;
+}
+
+/* Show red border animation on hover */
+.third__cards--card:hover::before {
+  width: 100%;
+}
+
+/* Ensure content stays above the animated background */
+.third__cards--card * {
+  position: relative;
+  z-index: 1;
+}
+
+.third__cards--card h3 {
+  font-family: Manrope;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFF;
+}
+
+.third__cards--card p {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.third__cards--card span {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 73%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.third__cards--card span b {
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  line-height: 73%;
+  letter-spacing: 0%;
+  color: #FFF;
+}
+
+.third__card--btn {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.third__card--btn button {
+  border-radius: 8px;
+  border-width: 1px;
+  padding-top: 18px;
+  padding-right: 24px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  background: #141414;
+  border: 1px solid #262626;
+  color: #FFF;
+}
+
+.third__card--btn button:hover {
+  border: 1px solid #fd0000;
+  color: #ff0101;
+  transition: all 1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* /////////////////////////// END MAIN ///////////////////////////// */
 
 /* ///////////////////////// START FOOTER //////////////////////////// */
