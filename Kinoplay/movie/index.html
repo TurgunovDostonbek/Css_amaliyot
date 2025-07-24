@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+  <!-- jQuery va Slick JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+  <title>KinoPlay</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <div class="navbar__logo">
+        <a class="navbar__logo--link" href="#">
+          <img class="navbar__logo--img" src="../img/Vector (3).png" alt="navbar__logo">
+          <h1 class="navbar__title">StreamVibe</h1>
+        </a>
+      </div>
+
+      <div class="navbar__links">
+        <ul class="navbar__list">
+          <li class="list__item">
+            <a href="../index.html" class="list__item--link">Home</a>
+          </li>
+          <li class="list__item">
+            <a href="./movie/index.html" class="list__item--link">Movies & Shows</a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__item--link">Support</a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__item--link">Subscriptions</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar__btn">
+        <button>
+          <img class="navbar__btn--img" src="../img/Icon (2).png" alt="btn__img">
+        </button>
+        <button>
+          <img class="navbar__btn--img" src="../img/Icon (1).png" alt="btn__img">
+        </button>
+      </div>
+      <div class="navbar__main">
+        <img src="./img/Icon (3).png" alt="mains">
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- //////////////////// HERO /////////////////////////// -->
+
+  <div class="hero ">
+    <div class="hero__container slider container">
+      <img src="./img/1012707.jpg" alt="Hero__IMG">
+      <img src="./img/236030.jpg" alt="Hero__IMG">
+      <img src="./img/949023.jpg" alt="Hero__IMG">
+      <img src="./img/LANDING bg.png" alt="Hero__IMG">
+      <img src="./img/Rectangle 2.png" alt="Hero__IMG">
+      <img src="./img/975294.jpg" alt="Hero__IMG">
+      <img src="./img/Group 18308.png" alt="Hero__IMG">
+      <img src="./img/Group 69.png" alt="Hero__IMG">
+
+    </div>
+  </div>
+
+  <!-- /////////////////////// MAIN //////////////////// -->
+  <main class="main">
+    <section class="first__section container">
+      <div class="first__container container">
+
+        <h3 class="first__section--title">Our Genres</h3>
+
+        <div class="first__cards sliders">
+
+          <div class="first__cards--card ">
+            <div class="first__card--img">
+              <img src="../img/main/Container (3).png" alt="FirstImg">
+            </div>
+            <div class="first__card--title">
+              <span>Action</span>
+            </div>
+          </div>
+          <div class="first__cards--card">
+            <div class="first__card--img">
+              <img src="../img/main/Container (4).png" alt="FirstImg">
+            </div>
+            <div class="first__card--title">
+              <span>Adventure</span>
+            </div>
+          </div>
+          <div class="first__cards--card">
+            <div class="first__card--img">
+              <img src="../img/main/Container (5).png" alt="FirstImg">
+            </div>
+            <div class="first__card--title">
+              <span>Comedy</span>
+            </div>
+          </div>
+          <div class="first__cards--card">
+            <div class="first__card--img">
+              <img src="../img/main/Container (7).png" alt="FirstImg">
+            </div>
+            <div class="first__card--title">
+              <span>Drama</span>
+            </div>
+          </div>
+          <div class="first__cards--card">
+            <div class="first__card--img">
+              <img src="../img/main/Container (6).png" alt="FirstImg">
+            </div>
+            <div class="first__card--title">
+              <span>Horror</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <button onclick="widthShow()" class="first__section--btn">Movies </button>
+      <div class="movie__cards"></div>
+    </section>
+
+    <!-- /////////////// Second Section ///////////////// -->
+  </main>
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
