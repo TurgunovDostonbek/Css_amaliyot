@@ -27,6 +27,9 @@ setInterval(() => {
   }, 500);
 }, 3000);
 
+///// AOS
+AOS.init();
+
 ///////////// Slice Slider ///////
 $(document).ready(function () {
   $(".slider").slick({

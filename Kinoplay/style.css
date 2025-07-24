@@ -140,7 +140,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-top: -50px;
   background: linear-gradient(90deg, rgba(20, 20, 20, 0) 100%, #141414 100%);
 }
 
