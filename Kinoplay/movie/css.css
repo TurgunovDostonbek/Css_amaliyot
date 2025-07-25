@@ -129,6 +129,7 @@ body {
   height: 100vh;
   border-radius: 12px;
   object-fit: cover;
+  object-position: center;
 }
 
 /* //////////////////// First Section /////////////// */
