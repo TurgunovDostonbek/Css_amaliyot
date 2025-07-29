@@ -40,6 +40,14 @@ $(document).ready(function () {
     infinite: true, // Cheksiz aylanish
     speed: 500, // O‘tish tezligi
     slidesToShow: 4, // Nechta slayd ko‘rsatilishi
-    slidesToScroll: 1, // Nechta slayd o‘zgarishi
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 880, // 768px ekran pastida
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   });
 });
